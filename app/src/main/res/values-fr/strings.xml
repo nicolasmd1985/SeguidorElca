@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Traceur GPS auto-hebergé</string>
+    
+    <string name="button_toggle">Traceur</string>
+    
+    <string name="desc_logo">Logo</string>
+    
+    <string name="hint_url">http(s)://serveur/chemin</string>
+
+    <string name="invalid_number">Nombre incorrect</string>
+
+    <string name="menu_settings">Réglages</string>
+    
+    <string name="pref_gps_updates">Mises à jour GPS (secondes)</string>
+    <string name="pref_gps_updates_summary">Met à jour la position GPS toutes les… (5 secondes mini)</string>
+    <string name="pref_gps_updates_too_low">Désolé, cette valeur est trop basse.</string>
+    <string name="pref_gps_updates_too_high">Désolé, cette valeur dépasse le temps maxi d\'exécution.</string>
+    <string name="pref_gps_updates_battery_drain">Attention ! Une valeur inférieure à 30 s peut vider votre batterie.</string>
+
+    <string name="pref_max_run_time">Temps maxi d\'exécution (heures)</string>
+    <string name="pref_max_run_time_summary">(8 heures par défaut)</string>
+    <string name="pref_max_run_time_too_low">Désolé, cette valeur est inférieure à l\'intervalle de mise à jour de la position.</string>
+
+    <string name="pref_timestamp">Horodater chaque requête</string>
+    <string name="pref_timestamp_summary">Ajoute un paramètre t=(millisecondes)</string>
+
+    <string name="pref_gps_awake">Maintient le GPS éveillé</string>
+    <string name="pref_gps_awake_explain">Plus précis mais consomme plus</string>
+
+    <string name="text_legend_url_0">Envoyer ma position à :</string>
+    <string name="text_legend_url_1">Exemple: http://herverenault.fr/gps</string>
+    <string name="text_legend_url_2">Latitude et longitude ajoutées automatiquement</string>
+    <string name="text_legend_url_3">par ex. http://herverenault.fr/gps?lat=…&amp;lon=…</string>
+    
+    <string name="text_network_status">État du réseau inconnu</string>
+    <string name="text_network_status_enabled">Connexion internet établie</string>
+    <string name="text_network_status_disabled">Attention ! Pas de connexion internet !</string>
+    
+    <string name="text_gps_status">État du GPS inconnu</string>
+    <string name="text_gps_status_enabled">GPS activé</string>
+    <string name="text_gps_status_disabled">Attention ! GPS désactivé !</string>
+    
+    <string name="text_running_since">Fonctionne depuis le</string>
+    <string name="text_stopped_on">Arrêté depuis le</string>
+    <string name="text_killed">Android a stoppé l\'application</string>
+    
+    <string name="toast_service_running">Le traceur est en marche</string>
+    <string name="toast_service_stopped">Le traceur est arrếté</string>
+    <string name="toast_prefs_restart">N\'oubliez pas de redémarrer le traceur !</string>
+
+    <string name="waiting_for_gps_data">En attente de données GPS</string>
+    <string name="last_location_sent_at">Dernière position envoyée à</string>
+    <string name="http_request_ok">OK</string>
+    <string name="http_request_failed">échec</string>
+
+    <string name="error_malformed_url">URL invalide</string>
+    <string name="error_unknown_host">Serveur inconnu ou pas de réseau</string>
+    <string name="error_ssl">Problème de connexion HTTPS</string>
+    <string name="error_timeout">Temps d\'attente dépassé</string>
+
+</resources>
